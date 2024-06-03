@@ -1,9 +1,9 @@
 on swap hand items:
 	if name of tool is "Controller":
-		if event-player's tool is a iron shovel:
+		if event-player's item is a stick:
 			cancel event
 			make player execute command "rotate right"
-on player drop of an iron shovel:
+on player drop of an stick:
 	if name of item is "Controller":
 		cancel event
 		make player execute command "rotate left"
