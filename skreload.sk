@@ -1,0 +1,9 @@
+command /skreload:
+	permission: cmc.skriptreload
+	permission message: &cYou can't use this command!
+	aliases: skr
+	executable by: player
+	cooldown: 5 seconds
+	trigger:
+		make player execute command "skript reload all"
+		
